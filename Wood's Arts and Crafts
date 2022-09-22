@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="titles">
+    <titles>Wood's Craft Store</titles>
+    </div>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Brushes">
+        <h1>Brushes</h1>
+    </div>
+    
+        <img src="https://codehs.com/uploads/489e3459efc3b206118b4c9b10f6f645">
+        <h2>Hacksaw Brushes</h2>
+        <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes.<span class="price">Starting at $3.00/brush.</span></p>
+        
+    <div class="Frames">
+        <h1>Frames</h1>
+    </div>
+    
+        <img src="https://codehs.com/uploads/1baf0cb1e0b74d6aa10dae82a78135a4" width="250">
+        <h2>Art Frames (assorted)</h2>
+        <p> Assorted frames of different material, including MDF, birchwood, and PDE. select frames can be sanded and painted according to your needs.<span class="price">Starting at $2.00/frame.</span></p>
+        
+    <div class="paint">
+        <h1>Paint</h1>
+    </div>
+    
+        <img src="https://codehs.com/uploads/e38e83d25496cfcbd34fbe3433e29e59">
+        <h2>Clean Finish Paint</h2>
+        <p>Imported paint from Finland. over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). CleanFinnish paint microbinds to canvas increasing the finish and longevity of any artwork.<span class="price">Starting at $5.00/tube.</span></p>
+</body>
+</html>
+
+<!--style.css-->
+.titles {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: Center;
+    background-image: url('https://codehs.com/uploads/fa61945b091b5b8ad987580d2672ef19');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Brushes {
+    font-family: helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+.Frames {
+    background-color: lightcoral;
+    font-family: helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.paint {
+    background-color: skyblue;
+    font-family: helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
